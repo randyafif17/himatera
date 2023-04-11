@@ -1,0 +1,131 @@
+.himatera__whathimatera {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    font-family: var(--font-family);
+
+    border-radius: 0.5rem;
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042C54', endColorstr='#042C54', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+}
+
+/* #whim {
+    background-color: #0d3a3a;
+} */
+
+.himatera__whathimatera-feature {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Customizing feature component as per needs */
+.himatera__whathimatera-feature .himatera__features-container__feature {
+    margin: 3rem;
+}
+
+/* Customizing feature component as per needs */
+.himatera__whathimatera-feature .himatera__features-container_feature-text {
+    max-width: 700px;
+}
+
+.himatera__whathimatera-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.himatera__whathimatera-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.himatera__whathimatera-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.himatera__whathimatera-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.himatera__whathimatera-container .himatera__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.himatera__whathimatera-container .himatera__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .himatera__whathimatera-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .himatera__whathimatera-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .himatera__whathimatera-feature .himatera__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .himatera__whathimatera-feature .himatera__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .himatera__whathimatera-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .himatera__whathimatera-container .himatera__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

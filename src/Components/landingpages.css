@@ -1,0 +1,169 @@
+.himatera__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.himatera__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.himatera__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.himatera__header-content p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: aliceblue;
+
+    margin-top: 1.5rem;
+}
+
+
+.himatera__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.himatera__header-content__input p {
+    color: #fff;
+    margin-top: 0.49rem;
+    margin-bottom: 0;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.himatera__header-content__input a:hover {
+    color: #f6981a;
+    transition: 0.4s;
+
+}
+
+.himatera__header-content__input a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #f6981a;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.himatera__header-content__input button {
+    min-width: 10rem;
+    min-height: 45px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    background: #042c54;
+    /* border: 2px solid #FF4820; */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    transition-duration: 0.3s;
+
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.himatera__header-content__input button:hover {
+    background-color: #084f96;
+}
+
+.himatera__header-content__people {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: inline;
+
+    margin-top: 2rem;
+}
+
+.himatera__header-content__people img {
+    width: 10px;
+    height: 38px;
+}
+
+.himatera__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility: hidden; */
+}
+
+.himatera__header-image img {
+    width: 80%;
+    height: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+    .himatera__header {
+        flex-direction: column;
+    }
+
+    .himatera__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .himatera__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .himatera__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .himatera__header-content__input input,
+    .himatera__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .himatera__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .himatera__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .himatera__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .himatera__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .himatera__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

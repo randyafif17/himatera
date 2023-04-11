@@ -1,0 +1,145 @@
+.himatera__header-department {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 9rem 0 7rem 0;
+}
+
+.himatera__team-information h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: aliceblue;
+}
+
+.himatera__team-information p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: aliceblue;
+    text-align: flex-start;
+}
+
+
+.himatera__header-department__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.himatera__header-department__input button {
+    min-width: 10rem;
+    min-height: 45px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    background: #042c54;
+    /* border: 2px solid #FF4820; */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    transition-duration: 0.3s;
+
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.himatera__header-department__input button:hover {
+    background-color: #084f96;
+}
+
+.himatera__header-content__people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 90px;
+    margin-top: 2rem;
+}
+
+.himatera__team-information {
+    flex-direction: column;
+}
+
+.himatera__header-content__people p {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.himatera__header-content__people h2 {
+    font-size: 40px;
+    font-family: var(--font-family);
+    color: aliceblue;
+}
+
+@media screen and (max-width: 1050px) {
+    .himatera__header-department {
+        flex-direction: column;
+    }
+
+    .himatera__header-content_department {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .himatera__header-content__people {
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: flex-start;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .himatera__header-content_department h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .himatera__header-content_department p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .himatera__header-department__input input,
+    .himatera__header-department__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .himatera__header-department h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .himatera__header-department p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .himatera__header-content_department h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .himatera__header-content_department p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .himatera__header-department__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

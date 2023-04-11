@@ -1,0 +1,67 @@
+.himatera__card {
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    max-width: 650px;
+    padding: 50px 30px 50px 20px;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042C54', endColorstr='#042C54', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(234deg, rgba(4, 44, 84, 0.94) 0%, rgba(27, 120, 222, 0.4) 51%, rgba(4, 44, 84, 0.92) 100%);
+    border-radius: 15px;
+    font-family: var(--font-family);
+}
+
+.himatera__card img {
+    max-width: 280px;
+    width: 28vw;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -60px;
+    margin-right: 30px;
+    border-radius: inherit;
+}
+
+.himatera__card h3 {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.himatera__card h2 {
+    font-weight: 1000;
+}
+
+.himatera__card p {
+    color: var(--color-text);
+    padding-top: 10px;
+}
+
+@media (width <= 740px) {
+    .himatera__card {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+
+    .himatera__card img {
+        margin: -100px 0 30px 0;
+        width: 100%;
+        max-width: 1000px;
+    }
+}

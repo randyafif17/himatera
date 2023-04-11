@@ -1,0 +1,142 @@
+.himatera__department-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.himatera__title-card h1 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-size: 40px;
+}
+
+.himatera__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.himatera__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.himatera__features .himatera__features-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.himatera__features-heading p {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    
+    margin-top: 2rem;
+}
+
+.himatera__what-himatera {
+    background-color: #0d3a3a;
+}
+
+.himatera__header-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .himatera__whathimatera-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .himatera__whathimatera-heading p {
+        margin-top: 1rem;
+    }
+}
+
+
+
+/* @media screen and (max-width: 650px) { */
+    /* Customizing feature component as per needs */
+    /* .himatera__whathimatera-feature .himatera__features-container__feature {
+        flex-direction: column;
+    } */
+
+    /* Customizing feature component as per needs */
+    /* .himatera__whathimatera-feature .himatera__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .himatera__whathimatera-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+} */
+
+/* @media screen and (max-width: 350px) { */
+    /* Customizing feature component as per needs */
+    /* .himatera__whathimatera-container .himatera__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+} */
+
+
+
+
+@media (width <= 1555px) {
+    .himatera__department-card {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .himatera__features {
+        flex-direction: column;
+    }
+
+    .himatera__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .himatera__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media (width <= 395px) {
+    .himatera__title-card h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (width <= 260px) {
+    .himatera__title-card h1 {
+        display: flex;
+        text-align: center;
+    }
+}

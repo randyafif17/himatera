@@ -1,0 +1,82 @@
+.himatera__first-project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.himatera__first-project_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15.5rem;
+    margin-bottom: 15.5rem;
+}
+
+.himatera__first-project_text {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.himatera__first-project_text h2 {
+    padding-bottom: 1rem;
+    font-family: var(--font-family);
+    font-size: 44px;
+}
+
+.himatera__first-project_text p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.himatera__project-image {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99%;
+}
+
+.himatera__project-image img {
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
+}
+
+.himatera__project-image img:nth-child(2) {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .himatera__project {
+        margin: 4rem 2rem;
+    }
+    .himatera__first-project {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .himatera__first-project_text {
+        width: 100%;
+    }
+    .himatera__project-image {
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .himatera__project-image img {
+        height: 250px;
+    }
+    .himatera__first-project_reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+}
