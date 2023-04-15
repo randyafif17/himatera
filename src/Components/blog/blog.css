@@ -21,7 +21,7 @@
     font-size: 20px;
   }
   .blog .tag a {
-    color: blue;
+    color: aliceblue;
     opacity: 0.7;
   }
   .blog .tag {
@@ -33,7 +33,7 @@
     font-weight: 500;
   }
   .blog p {
-    color: #999;
+    color: aliceblue;
     font-weight: 400;
     margin: 20px 0;
     font-size: 17px;
@@ -47,3 +47,7 @@
     display: block;
     margin-right: 20px;
   }
+  /* .details p {
+    color: aliceblue;
+    font-size: 15px;
+  } */
