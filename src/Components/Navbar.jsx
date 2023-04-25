@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../assets/himatera.png';
+import logo from '../assets/image/himatera.png';
 // BEM -> Block Element Modifier
 
 // const Menu = () => (
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div className="himatera__navbar-links_container">
                     <div>
                         <p><a href="/">Home</a></p>
-                        <p><a href="/blog">Article</a></p>
+                        <p><a href="/article">Article</a></p>
                         <p><a href="/event">Event</a></p>
                         <p><a href="/projects">Projects</a></p>
                         <p><a href="/contact">Contact</a></p>
@@ -63,7 +63,7 @@ const Navbar = () => {
                             <p><a href="/department">Department</a></p>
                             <p><a href="/event">Event</a></p>
                             <p><a href="/projects">Projects</a></p>
-                            <p><a href="/">Article</a></p>
+                            <p><a href="/article">Article</a></p>
                             <p><a href="/contact">Contact</a></p>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import './another.css';
 import AnotherData from './AnotherData';
 import React from 'react'
-import Avatar from "../assets/img_avatar.png";
+import Avatar from "../assets/image/img_avatar.png";
 
 const Another = () => {
     return (

@@ -5,7 +5,7 @@ import WhatHimatera from "../Components/WhatHimatera";
 import Footer from "../Components/footer/Footer";
 // import Culture from "./culture/Culture";
 import Feature from "../Components/feature/Feature";
-import abyakta from '../assets/kabinet-abyakta-tulisan.png';
+import abyakta from '../assets/image/kabinet-abyakta-tulisan.png';
 import './home.css';
 
 const featuresData = [

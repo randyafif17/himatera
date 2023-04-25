@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer/Footer";
 import HeroEvent from "../Components/HeroEvent";
 import AnotherData from "../Components/AnotherData";
-import Avatar from "../assets/img_avatar.png";
+import Avatar from "../assets/image/img_avatar.png";
 // import ReactPlayer from "react-player";
 
 import './event.css';

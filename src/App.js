@@ -6,8 +6,8 @@ import Event from "./Pages/Event";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Blog from './Pages/Blog';
-import { DetailsPages } from './Pages/DetailsPages';
+import OnePosts from './Components/OnePosts';
+import AllPosts from './Components/AllPosts';
 
 // const observer = new IntersectionObserver((entries) => {
 //   entries.forEach((entry) => {
@@ -31,8 +31,8 @@ const App = () => {
       <Route path="/department" element={<Department />} />
       <Route path="/event" element={<Event />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path='/details/:id' element={<DetailsPages />} />
+      <Route path="/article" element={<AllPosts />} />
+      <Route path='/article/:slug' element={<OnePosts />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>

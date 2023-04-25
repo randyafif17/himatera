@@ -1,5 +1,5 @@
 import React from 'react';
-import himatera from '../../assets/himatera.png';
+import himatera from '../../assets/image/himatera.png';
 import './footer.css';
 
 const Footer = () => (

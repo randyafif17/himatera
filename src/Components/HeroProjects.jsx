@@ -1,7 +1,7 @@
 import './heroprojects.css';
 import React from 'react';
 import ProjectData from './ProjectData';
-import Avatar from "../assets/img_avatar.png";
+import Avatar from "../assets/image/img_avatar.png";
 
 const HeroProjects = () => {
     return (

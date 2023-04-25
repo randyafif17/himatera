@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer/Footer";
 import HeaderDepartment from "../Components/HeaderDepartment";
 import Card from "../Components/Card";
-import Avatar from "../assets/img_avatar.png";
+import Avatar from "../assets/image/img_avatar.png";
 import './department.css';
 import Feature from "../Components/feature/Feature";
 
